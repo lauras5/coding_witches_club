@@ -1,0 +1,90 @@
+body {
+  /* font-family: 'Megrim', cursive; */
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+/* font-family: 'PT Mono', monospace; */
+}
+.nav {
+  background-color: #9592926b;
+  width: 100%;
+}
+#home-img {
+  height: 100%;
+  /* background-image: url(https://images.pexels.com/photos/1427513/pexels-photo-1427513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  background-image: url(https://images.pexels.com/photos/8781/landscape-trees-winter-8781.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+#page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #ffffff00;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+#coding-nav {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  padding-left: 20px;
+}
+a.brand-logo {
+  color: #4e4b64;
+}
+#text {
+  display: flex;
+  height: 400px;
+  font-family: 'Megrim', cursive;
+}
+#left-text, #right-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  margin-top: 10%;
+}
+#left-text {
+  align-items: flex-end; 
+  color:#4e4b64;
+}
+#right-text {
+  padding-left: 20px;
+  /* background-image: url(https://images.pexels.com/photos/1427513/pexels-photo-1427513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  background-image: url(https://images.pexels.com/photos/8781/landscape-trees-winter-8781.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: 1075px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  height: 100%;
+}
+/* #right-text > p {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+ul.right {
+  display: flex;
+}
+p {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
+  letter-spacing: 50px;
+}
+#color-block {
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  background-color:#4e4b64;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
